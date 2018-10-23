@@ -1,0 +1,91 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{6889DE70-7AC9-4476-B135-31189E0A704E}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>GeneticAlgoProject</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Common\NotificationCenter.meta" />
+    <None Include="Common\NotificationCenter\NotificationCenter.cs.meta" />
+    <None Include="Common\NotificationCenter\NotificationExtensions.cs.meta" />
+    <None Include="Common\StateMachine.meta" />
+    <None Include="Model\AI.meta" />
+    <None Include="Model\AiTester.cs.meta" />
+    <None Include="Model\AI\AlphaBeta.cs.meta" />
+    <None Include="Model\AI\GeneticAlgo.cs.meta" />
+    <None Include="Model\AI\MatchAlgo.cs.meta" />
+    <None Include="Model\AI\MyUtilityIA.cs.meta" />
+    <None Include="Model\AI\WeightScore.cs.meta" />
+    <None Include="Model\AI\weightsForBoardEval.cs.meta" />
+    <None Include="Model\Game.cs.meta" />
+    <None Include="Model\Move.cs.meta" />
+    <None Include="Model\MyUtility.cs.meta" />
+    <None Include="Model\PairOfScores.cs.meta" />
+    <None Include="Model\Placement.cs.meta" />
+    <None Include="Model\Settings.cs.meta" />
+    <None Include="Model\TestClass.cs.meta" />
+    <None Include="Model\Utils.meta" />
+    <None Include="Model\Utils\Utils.cs.meta" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\NotificationCenter\NotificationCenter.cs" />
+    <Compile Include="Common\NotificationCenter\NotificationExtensions.cs" />
+    <Compile Include="Model\AiTester.cs" />
+    <Compile Include="Model\AI\AlphaBeta.cs" />
+    <Compile Include="Model\AI\GeneticAlgo.cs" />
+    <Compile Include="Model\AI\MatchAlgo.cs" />
+    <Compile Include="Model\AI\MyUtilityIA.cs" />
+    <Compile Include="Model\AI\WeightScore.cs" />
+    <Compile Include="Model\AI\weightsForBoardEval.cs" />
+    <Compile Include="Model\Game.cs" />
+    <Compile Include="Model\Move.cs" />
+    <Compile Include="Model\MyUtility.cs" />
+    <Compile Include="Model\PairOfScores.cs" />
+    <Compile Include="Model\Placement.cs" />
+    <Compile Include="Model\Settings.cs" />
+    <Compile Include="Model\TestClass.cs" />
+    <Compile Include="Model\Utils\Utils.cs" />
+    <Compile Include="Model\Vector2.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

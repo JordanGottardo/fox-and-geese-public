@@ -1,0 +1,6 @@
+C:\Users\Giulia\Desktop\AI-fox-and-geese\GeneticAlgo\bin\Debug\ConsoleApplication.exe
+C:\Users\Giulia\Desktop\AI-fox-and-geese\GeneticAlgo\bin\Debug\ConsoleApplication.pdb
+C:\Users\Giulia\Desktop\AI-fox-and-geese\GeneticAlgo\obj\x86\Debug\StandAloneFoxAndGeese.csprojResolveAssemblyReference.cache
+C:\Users\Giulia\Desktop\AI-fox-and-geese\GeneticAlgo\obj\x86\Debug\StandAloneFoxAndGeese.csproj.CoreCompileInputs.cache
+C:\Users\Giulia\Desktop\AI-fox-and-geese\GeneticAlgo\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\Giulia\Desktop\AI-fox-and-geese\GeneticAlgo\obj\x86\Debug\ConsoleApplication.pdb

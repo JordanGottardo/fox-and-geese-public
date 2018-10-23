@@ -1,0 +1,6 @@
+C:\Users\Jordan\Documents\MEGA\Universita_mia\Magistrale\_Progetti e ricerche\IA\AI-fox-and-geese\GeneticAlgo\bin\Debug\ConsoleApplication.exe
+C:\Users\Jordan\Documents\MEGA\Universita_mia\Magistrale\_Progetti e ricerche\IA\AI-fox-and-geese\GeneticAlgo\bin\Debug\ConsoleApplication.pdb
+C:\Users\Jordan\Documents\MEGA\Universita_mia\Magistrale\_Progetti e ricerche\IA\AI-fox-and-geese\GeneticAlgo\obj\x86\Debug\GeneticAlgoProject.csprojResolveAssemblyReference.cache
+C:\Users\Jordan\Documents\MEGA\Universita_mia\Magistrale\_Progetti e ricerche\IA\AI-fox-and-geese\GeneticAlgo\obj\x86\Debug\GeneticAlgoProject.csproj.CoreCompileInputs.cache
+C:\Users\Jordan\Documents\MEGA\Universita_mia\Magistrale\_Progetti e ricerche\IA\AI-fox-and-geese\GeneticAlgo\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\Jordan\Documents\MEGA\Universita_mia\Magistrale\_Progetti e ricerche\IA\AI-fox-and-geese\GeneticAlgo\obj\x86\Debug\ConsoleApplication.pdb
